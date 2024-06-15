@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 # Loading the saved models
-diabetes_model = pickle.load(open('C:/Users/heera/OneDrive/Desktop/python-ws/trained_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/heera/OneDrive/Desktop/webapp/diabetes_model.sav', 'rb'))
 heart_disease_model = pickle.load(open('C:/Users/heera/OneDrive/Desktop/python-ws/heart_disease_model.sav', 'rb'))
 parkinsons_model = pickle.load(open('C:/Users/heera/OneDrive/Desktop/python-ws/parkinsons_model.sav', 'rb'))
 migraine_model = pickle.load(open('C:/Users/heera/OneDrive/Desktop/python-ws/migraine_model.sav', 'rb'))
