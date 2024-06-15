@@ -344,7 +344,8 @@ if st.session_state['page'] == 'Lung Disease Prediction':
             7:'Emphysema',
             8:'Pulmonary_Fibrosis',
             9:'Pleural_Effusion',
-            10:'Tuberculosis'.}
+            10:'Tuberculosis'.
+        }
 
         predicted_disease = diseases.get(lung_prediction[0], 'Unknown Disease')
         lung_diagnosis = f'The person is predicted to have: {predicted_disease}'
